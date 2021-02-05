@@ -22,13 +22,32 @@
     <!-- Animate.css -->
     <link rel="stylesheet" href="plugins/animate-css/animate.css">
     <!-- Magnific popup css -->
-    <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css">
+    <!-- <link rel="stylesheet" href="plugins/magnific-popup/dist/magnific-popup.css"> -->
     <!-- Slick Carousel -->
     <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+    <!-- <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css"> -->
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
+    <style>
+        .show {
+            display: block;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .media-wrapper img {
+            width: 100%;
+            height: 250px;
+        }
+
+        .text-center img {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
 
 </head>
 
@@ -89,7 +108,7 @@
                 <ul id="nav" class="nav navbar-nav navigation-menu">
                     <li><a data-scroll href="index.html">Home</a></li>
                     <li><a data-scroll href="gallery.html">Gallery</a></li>
-                    <li><a data-scroll href="purvarang.html">Purvarang</a></li>
+                    <li><a data-scroll href="purvarang/index.html">Purvarang</a></li>
                     <li><a class="active" data-scroll href="#">Events</a></li>
                     <li><a data-scroll href="blog.html">Articles</a></li>
                     <li><a data-scroll href="team.html">Our Team</a></li>
@@ -104,91 +123,28 @@
     <section id="blog" class="section">
         <div class="container">
             <div class="row">
+
                 <!-- section title -->
                 <div class="title text-center wow fadeInDown">
-                    <h2>Blog <span class="color">Posts</span></h2>
+                    <h2>Our <span class="color">Events</span></h2>
                     <div class="border"></div>
                 </div>
                 <!-- /section title -->
+
                 <div class="clearfix">
+
                     <!-- single blog post -->
                     <article class="col-md-4 col-sm-6 col-xs-12 mb-30 clearfix wow fadeInUp" data-wow-duration="500ms">
                         <div class="post-block">
                             <div class="media-wrapper">
-                                <img src="images/blog/blog-post-1.jpg" alt="amazing caves coverimage"
-                                    class="img-responsive">
+                                <img src="https://spiderimg.amarujala.com/assets/images/2018/05/25/kavi-sammelan_1527238003.jpeg"
+                                    alt="amazing caves coverimage" class="img-responsive">
                             </div>
                             <div class="content">
-                                <h3><a href="">Simple Image Post</a></h3>
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-                                    ad
-                                    squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-                                <a class="btn btn-transparent" href="blog-single.html">Read more</a>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- /single blog post -->
-
-                    <!-- single blog post -->
-                    <article class="col-md-4 col-sm-6 col-xs-12 mb-30 wow fadeInUp" data-wow-duration="500ms"
-                        data-wow-delay="200ms">
-                        <div class="post-block">
-                            <div id="gallery-post" class="media-wrapper">
-                                <div class="item">
-                                    <img src="images/blog/blog-post-2.jpg" alt="blog post" class="img-responsive">
-                                </div>
-                                <div class="item">
-                                    <img src="images/blog/blog-post-3.jpg" alt="blog post" class="img-responsive">
-                                </div>
-                                <div class="item">
-                                    <img src="images/blog/blog-post-1.jpg" alt="blog post | Meghna"
-                                        class="img-responsive">
-                                </div>
-                            </div>
-
-                            <div class="content">
-                                <h3><a href="">Simple Slider Post</a></h3>
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-                                    ad
-                                    squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-                                <a class="btn btn-transparent" href="blog-single.html">Read more</a>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- end single blog post -->
-
-                    <!-- single blog post -->
-                    <article class="col-md-4 col-sm-6 col-xs-12 mb-30 wow fadeInUp" data-wow-duration="500ms"
-                        data-wow-delay="400ms">
-                        <div class="post-block">
-                            <div class="media-wrapper">
-                                <img src="images/blog/blog-post-3.jpg" alt="amazing caves coverimage"
-                                    class="img-responsive">
-                            </div>
-
-                            <div class="content">
-                                <h3><a href="">Simple Image Post</a></h3>
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-                                    ad
-                                    squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-                                <a class="btn btn-transparent" href="blog-single.html">Read more</a>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- end single blog post -->
-                    <!-- single blog post -->
-                    <article class="col-md-4 col-sm-6 col-xs-12 mb-30 clearfix wow fadeInUp" data-wow-duration="500ms">
-                        <div class="post-block">
-                            <div class="media-wrapper">
-                                <img src="images/blog/blog-post-4.jpg" alt="amazing caves coverimage"
-                                    class="img-responsive">
-                            </div>
-                            <div class="content">
-                                <h3><a href="">Simple Image Post</a></h3>
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-                                    ad
-                                    squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-                                <a class="btn btn-transparent" href="blog-single.html">Read more</a>
+                                <h3>Kavya Sammelan</h3>
+                                <a class="btn btn-transparent" onclick="filter('kavya_sammelan')">
+                                    Read more
+                                </a>
                             </div>
                         </div>
                     </article>
@@ -199,16 +155,15 @@
                         data-wow-delay="200ms">
                         <div class="post-block">
                             <div class="media-wrapper">
-                                <img src="images/blog/blog-post-5.jpg" alt="amazing caves coverimage"
-                                    class="img-responsive">
+                                <img src="https://as2.ftcdn.net/jpg/02/32/13/89/500_F_232138900_rRJEbmMAlYGdcjedPZUdLoHCu2tW2xAk.jpg"
+                                    alt="amazing caves coverimage" class="img-responsive">
                             </div>
 
                             <div class="content">
-                                <h3><a href="">Simple Slider Post</a></h3>
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-                                    ad
-                                    squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-                                <a class="btn btn-transparent" href="blog-single.html">Read more</a>
+                                <h3>Face Painting</h3>
+                                <a class="btn btn-transparent" onclick="filter('face_painting')">
+                                    Read more
+                                </a>
                             </div>
                         </div>
                     </article>
@@ -219,47 +174,102 @@
                         data-wow-delay="400ms">
                         <div class="post-block">
                             <div class="media-wrapper">
-                                <img src="images/blog/blog-post-6.jpg" alt="amazing caves coverimage"
-                                    class="img-responsive">
+                                <img src="https://i.ytimg.com/vi/2XBYyIWZJqY/maxresdefault.jpg"
+                                    alt="amazing caves coverimage" class="img-responsive">
                             </div>
 
                             <div class="content">
-                                <h3><a href="">Simple Image Post</a></h3>
-                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-                                    ad
-                                    squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-                                <a class="btn btn-transparent" href="blog-single.html">Read more</a>
+                                <h3>Taare Zameen Par</h3>
+                                <a class="btn btn-transparent" onclick="filter('taare_zameen_par')">Read more</a>
                             </div>
                         </div>
                     </article>
                     <!-- end single blog post -->
                 </div>
-                <nav aria-label="Page navigation" class="text-center">
-                    <ul class="pagination pagination-lg">
-                        <li>
-                            <a href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                            </a>
-                        </li>
-                        <li><a class="active" href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li>
-                            <a href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
             </div> <!-- end row -->
         </div> <!-- end container -->
     </section> <!-- end section -->
 
-    <!-- end Contact Area
-		========================================== -->
+    <section class="kavya_sammelan hide">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1><a href="https://www.youtube.com/watch?v=_2w9u6TlPf8" target="_blank">Kavya Sammelan</a> </h1>
+                    <br>
+                    <img class="img-fluid mb-50"
+                        src="https://spiderimg.amarujala.com/assets/images/2018/05/25/kavi-sammelan_1527238003.jpeg"
+                        alt="blog-image">
+                </div>
+                <div class="col-lg-12">
+                    <blockquote class="mb-50">
+                        Kavya Sammelan is a much awaited talent-based entertainment event organized by team Drishti
+                        wherein students from our colleges participate and exhibit their talent. <br><br> This event
+                        includes
+                        singing, dancing, drama, poetry and much more. Eminent college clubs like FSDC , Avaroh and
+                        Gandharva participate and showcase their creativity. Even clubs like Sankalp participate
+                        enthusiastically in this event. <br><br>
+                        This year Kavya Sammelan witnessed its 1st online edition wherein participants had to record
+                        short video clips of their performances. These clips were then arranged and were presented on
+                        the official channel of Team Drishti on YouTube. <br><br> The response to this online event was
+                        overwhelming which motivated the team to come up with another edition of the same event named
+                        Kavya Sammelan 2.0.
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="face_painting hide">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Face Painting</h1><br>
+                    <img class="img-fluid mb-50"
+                        src="https://as2.ftcdn.net/jpg/02/32/13/89/500_F_232138900_rRJEbmMAlYGdcjedPZUdLoHCu2tW2xAk.jpg"
+                        alt="blog-image">
+                </div>
+                <div class="col-lg-12">
+                    <blockquote class="mb-50">
+                        Face painting competition was organised in college by team DRISHTI. Colourful faces which were
+                        beyond recognition were a delight for the students and teachers alike.
+                        <br><br> Various students
+                        participated in the competition and showed their creativity using the face as their canvas.They
+                        used fabric, poster, water and organic colors to paint the faces.
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="taare_zameen_par hide">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Taare Zameen Par</h1><br>
+                    <img class="img-fluid mb-50" src="https://i.ytimg.com/vi/2XBYyIWZJqY/maxresdefault.jpg"
+                        alt="blog-image">
+                </div>
+                <div class="col-lg-12">
+                    <blockquote class="mb-50">
+                        Taare zameen par is a drawing and sketching event organized by Team Drishti, which is very
+                        popular among children. Children from all over the city participate and sketch their ideas and
+                        creativity on papers.
+
+                        <br><br> Not only school going children but also college students and faculty
+                        participate enthusiastically in this event.The main idea behind organizing this event is to
+                        encourage children to be able to present their innocence and creativity in the form of art, it
+                        also instills an artistic value in them. <br><br> It helps the children find the inner Picasso
+                        in
+                        them.This event gives the college students a chance to awaken the child and artist in them and
+                        relive their childhood. Last year, this event was arranged on republic day and the response was
+                        truly exhilarating. This is a colorful event, full of joy and laughter, in the truest sense.
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer id="footer" class="bg-one">
         <div class="container">
             <div class="row wow fadeInUp" data-wow-duration="500ms">
@@ -268,10 +278,15 @@
                     <!-- Footer Social Links -->
                     <div class="social-icon">
                         <ul class="list-inline">
-                            <li><a href="https://www.youtube.com/channel/UCzFDB_jqZN8yjjWgdeh1wgQ"><i
-                                        class="tf-ion-social-youtube"></i></a></li>
-                            <li><a href="https://www.instagram.com/team_drishti_/"><i
-                                        class="tf-ion-social-instagram-outline"></i></a>
+                            <li>
+                                <a target="_blank" href="https://www.youtube.com/channel/UCzFDB_jqZN8yjjWgdeh1wgQ">
+                                    <i class="tf-ion-social-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.instagram.com/team_drishti_/">
+                                    <i class="tf-ion-social-instagram-outline"></i>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -317,22 +332,63 @@
     <!-- Slick Carousel -->
     <script type="text/javascript" src="plugins/slick-carousel/slick/slick.min.js"></script>
     <!-- Portfolio Filtering -->
-    <script type="text/javascript" src="plugins/filterzr/jquery.filterizr.min.js"></script>
+    <!-- <script type="text/javascript" src="plugins/filterzr/jquery.filterizr.min.js"></script> -->
     <!-- Smooth Scroll -->
     <script type="text/javascript" src="plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
     <!-- Magnific popup -->
     <script type="text/javascript" src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
     <!-- Google Map API -->
-    <script type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+    <!-- <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script> -->
     <!-- Sticky Nav -->
     <script type="text/javascript" src="plugins/Sticky/jquery.sticky.js"></script>
     <!-- Number Counter Script -->
-    <script type="text/javascript" src="plugins/count-to/jquery.countTo.js"></script>
+    <!-- <script type="text/javascript" src="plugins/count-to/jquery.countTo.js"></script> -->
     <!-- wow.min Script -->
     <script type="text/javascript" src="plugins/wow/dist/wow.min.js"></script>
     <!-- Custom js -->
     <script type="text/javascript" src="js/script.js"></script>
+
+    <script>
+        var taare_zameen_par = document.querySelector(".taare_zameen_par")
+        var face_painting = document.querySelector(".face_painting")
+        var kavya_sammelan = document.querySelector(".kavya_sammelan")
+
+        function filter(value) {
+            if (value == 'taare_zameen_par') {
+                taare_zameen_par.classList.add('show');
+                taare_zameen_par.classList.remove('hide');
+
+                face_painting.classList.add('hide');
+                face_painting.classList.remove('show');
+
+                kavya_sammelan.classList.add('hide');
+                kavya_sammelan.classList.remove('show');
+            }
+
+            else if (value == 'face_painting') {
+                taare_zameen_par.classList.remove('show');
+                taare_zameen_par.classList.add('hide');
+
+                face_painting.classList.add('show');
+                face_painting.classList.remove('hide');
+
+                kavya_sammelan.classList.add('hide');
+                kavya_sammelan.classList.remove('show');
+            }
+
+            else {
+                taare_zameen_par.classList.add('hide');
+                taare_zameen_par.classList.remove('show');
+
+                face_painting.classList.add('hide');
+                face_painting.classList.remove('show');
+
+                kavya_sammelan.classList.add('show');
+                kavya_sammelan.classList.remove('hide');
+            }
+        }
+    </script>
 
 </body>
 

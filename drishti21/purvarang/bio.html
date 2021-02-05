@@ -26,13 +26,30 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <style>
+    .heading {
+      color: #fff;
+      margin: 0 auto;
+      margin-top: 55px;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      width: 20%;
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 255), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 255));
+    }
+
+    @media (max-width: 500px) {
+      img {
+        width: 90%;
+      }
+    }
+  </style>
 </head>
 
 <body>
-
-
   <div class="site-wrap">
-
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -52,7 +69,7 @@
 
       <div class="main-menu d-none">
         <ul class="js-clone-nav">
-          <li><a href="index.html">View Magazine</a></li>
+          <li><a href="index.html">View Newsletter</a></li>
           <li class="active"><a href="bio.html">About Purvarang</a></li>
           <li>
             <br>
@@ -75,8 +92,13 @@
         <div class="row justify-content-center">
 
           <div class="col-md-6 pt-4 mt-5">
-            <h2 class="text-white mb-4" data-aos="fade-up">Hello there!</h2>
 
+            <div class="pt-0" style="display: flex; justify-content: center;">
+              <img src="./images/purva_logo.png" width="40%" alt="Purvarang Logo" style="background-color: #fff;"
+                class="img-responsive" />
+            </div><br><br>
+
+            <h2 class="text-white mb-2" data-aos="fade-up">Hello there!</h2>
             <div class="row" data-aos="fade-up">
               <div class="col-md-12 ">
                 <h4>
@@ -90,7 +112,50 @@
               </div>
             </div>
           </div>
+        </div>
 
+        <h2 class="heading text-center">Our Previous Editions</h2>
+        <hr>
+        <div class="row justify-content-center mt-5 offset-md-3 col-md-6">
+          <div class="card col-md-5 mb-3 col-12" style="width: 18rem;">
+            <img class="card-img-top" style="height: 250px; margin-top: 10px;"
+              src="https://blog.bannersnack.com/wp-content/uploads/2018/05/animated-gif-visual-blog-1024x525.png"
+              alt="Edition 1">
+            <div class="card-body">
+              <h5 class="card-title">Edition - 1</h5>
+              <a href="#" class="btn btn-primary" download="">Download</a>
+            </div>
+          </div>
+
+          <div class="card col-md-5 offset-md-2 mb-3 col-12" style="width: 18rem;">
+            <img class="card-img-top" style="height: 250px; margin-top: 10px;"
+              src="https://blog.bannersnack.com/wp-content/uploads/2018/05/animated-gif-visual-blog-1024x525.png"
+              alt="Edition 2">
+            <div class="card-body">
+              <h5 class="card-title">Edition - 2</h5>
+              <a href="#" class="btn btn-primary" download="">Download</a>
+            </div>
+          </div>
+
+          <div class="card col-md-5 mb-3 col-12" style="width: 18rem;">
+            <img class="card-img-top" style="height: 250px; margin-top: 10px;"
+              src="https://blog.bannersnack.com/wp-content/uploads/2018/05/animated-gif-visual-blog-1024x525.png"
+              alt="Edition 3">
+            <div class="card-body">
+              <h5 class="card-title">Edition - 3</h5>
+              <a href="#" class="btn btn-primary" download="">Download</a>
+            </div>
+          </div>
+
+          <div class="card col-md-5 offset-md-2 mb-3 col-12" style="width: 18rem;">
+            <img class="card-img-top" style="height: 250px; margin-top: 10px;"
+              src="https://blog.bannersnack.com/wp-content/uploads/2018/05/animated-gif-visual-blog-1024x525.png"
+              alt="Edition 4">
+            <div class="card-body">
+              <h5 class="card-title">Edition - 4</h5>
+              <a href="#" class="btn btn-primary" download="">Download</a>
+            </div>
+          </div>
         </div>
 
         <div class="row justify-content-center">
