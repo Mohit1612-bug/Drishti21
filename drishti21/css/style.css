@@ -3,13 +3,13 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 html {
   background-color: #353b43;
-  color: #737f8a;
+  color: #fff;
 }
 
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #fff;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -2117,3 +2117,11 @@ blockquote {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+.dots {
+  font-size: 40px !important;
+}
+
+.moments {
+  font-size: 30px !important;
+}
